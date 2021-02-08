@@ -8,6 +8,5 @@ public class EHEWeight extends RealmObject {
     public Long id;
     public String name;
     public Double percent;
-
     public EHECourse course;
 }
