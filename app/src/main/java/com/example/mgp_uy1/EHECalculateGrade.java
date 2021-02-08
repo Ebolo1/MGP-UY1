@@ -143,30 +143,32 @@ public class EHECalculateGrade {
     public static String calculateCourseLetterGrade(double grade) {
         String letterGrade;
 
-        if (grade >= 97.5) {
+        if (grade >= 90) {
             letterGrade = "A+";
-        } else if (grade <= 97.5 && grade >= 92.5) {
+        } else if (grade < 90 && grade >= 80) {
             letterGrade = "A";
-        } else if (grade <= 92.5 && grade >= 89.5) {
+        } else if (grade < 80 && grade >= 75) {
             letterGrade = "A-";
-        } else if (grade <= 89.5 && grade >= 87.5) {
+        } else if (grade < 75 && grade >= 70) {
             letterGrade = "B+";
-        } else if (grade <= 87.5 && grade >= 82.5) {
+        } else if (grade < 70 && grade >= 65) {
             letterGrade = "B";
-        } else if (grade <= 82.5 && grade >= 79.5) {
+        } else if (grade < 65 && grade >= 60) {
             letterGrade = "B-";
-        } else if (grade <= 79.5 && grade >= 77.5) {
+        } else if (grade < 60 && grade >= 55) {
             letterGrade = "C+";
-        } else if (grade <= 77.5 && grade >= 72.5) {
+        } else if (grade < 55 && grade >= 50) {
             letterGrade = "C";
-        } else if (grade <= 72.5 && grade >= 69.5) {
+        } else if (grade < 50 && grade >= 45) {
             letterGrade = "C-";
-        } else if (grade <= 69.5 && grade >= 59.5){
+        } else if (grade < 45 && grade >= 40){
+            letterGrade = "D+";
+        } else if (grade < 40 && grade >= 35){
             letterGrade = "D";
-        } else if (grade <= 59.5 && grade >= 0) {
-            letterGrade = "F";
+        } else if (grade < 35 && grade >= 0) {
+            letterGrade = "E";
         } else {
-            letterGrade = "F";
+            letterGrade = "E";
         }
 
         return letterGrade;
