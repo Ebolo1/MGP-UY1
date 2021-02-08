@@ -111,27 +111,27 @@ public class EHECalculateGrade {
     public static Double calculateGPAFromGrade(double grade) {
         double gpa;
 
-        if (grade >= 97.5) {
+        if (grade >= 80) {
             gpa = 4.0;
-        } else if (grade <= 97.5 && grade >= 92.5) {
+        } else if (grade <= 100 && grade >= 80) {
             gpa = 4.0;
-        } else if (grade <= 92.5 && grade >= 89.5) {
+        } else if (grade < 80 && grade >= 75) {
             gpa = 3.7;
-        } else if (grade <= 89.5 && grade >= 87.5) {
+        } else if (grade < 75 && grade >= 70) {
             gpa = 3.3;
-        } else if (grade <= 87.5 && grade >= 82.5) {
+        } else if (grade < 70 && grade >= 65) {
             gpa = 3.0;
-        } else if (grade <= 82.5 && grade >= 79.5) {
+        } else if (grade < 65 && grade >= 60) {
             gpa = 2.7;
-        } else if (grade <= 79.5 && grade >= 77.5) {
+        } else if (grade < 60 && grade >= 55) {
             gpa = 2.3;
-        } else if (grade <= 77.5 && grade >= 72.5) {
+        } else if (grade < 55 && grade >= 50) {
             gpa = 2.0;
-        } else if (grade <= 72.5 && grade >= 69.5) {
+        } else if (grade < 50 && grade >= 45) {
             gpa = 1.7;
-        } else if (grade <= 69.5 && grade >= 59.5) {
+        } else if (grade < 45 && grade >= 40) {
             gpa = 1.3;
-        } else if (grade <= 59.5 && grade >= 0) {
+        } else if (grade < 40 && grade >= 35) {
             gpa = 1.0;
         } else {
             gpa = 0.0;
