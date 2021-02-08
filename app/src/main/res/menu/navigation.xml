@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_my_courses"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="My Courses"/>
+
+    <item
+        android:id="@+id/navigation_my_gpa"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="My GPA"/>
+
+</menu>

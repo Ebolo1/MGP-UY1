@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Push Notification">
+
+        <SwitchPreference
+            android:id="@+id/all_notifications"
+            android:defaultValue="true"
+            android:key="all_notifications"
+            android:title="All Notifications"
+            android:contentDescription="Turn off all notifications"/>
+
+        <SwitchPreference
+            android:id="@+id/gpa_notifications"
+            android:defaultValue="true"
+            android:key="gpa_notifications"
+            android:title="Below 3.0 GPA"
+            android:contentDescription="Notification when GPA is below 3.0"/>
+
+        <SwitchPreference
+            android:id="@+id/expected_gpa_notifications"
+            android:defaultValue="true"
+            android:key="expected_gpa_notifications"
+            android:title="Below 3.0 Expected GPA"
+            android:contentDescription="Notification when Expected GPA is below 3.0"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Grades">
+
+        <SwitchPreference
+            android:id="@+id/show_expected_gpa"
+            android:defaultValue="true"
+            android:key="show_expected_gpa"
+            android:title="Show Expected GPA"
+            android:contentDescription="Show or Hide Expected GPA"/>
+
+        <SwitchPreference
+            android:id="@+id/show_credits"
+            android:defaultValue="true"
+            android:key="show_credits"
+            android:title="Show Credits"
+            android:contentDescription="Show or Hide Course Credits"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
