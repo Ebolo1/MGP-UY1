@@ -94,11 +94,7 @@ public class EHEMyCourseAdapter extends RecyclerView.Adapter<EHEMyCourseAdapter.
     public void onBindViewHolder(@NonNull final CourseViewHolder courseViewHolder, final int i) {
         courseViewHolder.nameView.setText(courses.get(i).name);
 
-        if (courses.get(i).su) {
-            courseViewHolder.gradeView.setText(String.format("S/U Grade %s", EHECalculateGrade.calculateSUGrade(EHECalculateGrade.calculateCourseGPA(courses.get(i), true))));
-        } else {
-            courseViewHolder.gradeView.setText(String.format("Letter Grade %s", EHECalculateGrade.calculateCourseLetterGrade(EHECalculateGrade.calculateCourseGPA(courses.get(i), true))));
-        }
+        courseViewHolder.gradeView.setText(String.format("Letter Grade %s", EHECalculateGrade.calculateCourseLetterGrade(EHECalculateGrade.calculateCourseGPA(courses.get(i), true))));
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         boolean showCredits = preferences.getBoolean("show_credits", true);

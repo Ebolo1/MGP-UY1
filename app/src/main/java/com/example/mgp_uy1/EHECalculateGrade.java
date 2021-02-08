@@ -27,14 +27,6 @@ public class EHECalculateGrade {
         return grade;
     }
 
-    public static String calculateSUGrade(double grade) {
-        String su = "U";
-        if (grade >= 69.5) {
-            su = "S";
-        }
-        return su;
-    }
-
     public static double calculateOverallExpectedGPA(ArrayList<EHECourse> courses) {
         double grade = 0.0;
         double totalCredit = 0.0;
