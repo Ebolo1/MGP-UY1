@@ -40,5 +40,8 @@
             android:title="Show Credits"
             android:contentDescription="Show or Hide Course Credits"/>
     </PreferenceCategory>
+    <PreferenceCategory android:title="Developed by: EHE-Unlimited Solution (Smiley_V1.0.1) ">
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
