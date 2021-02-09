@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">My_MGP</string>
+    <string name="app_name">MGP UY1</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_activity_kim_my_courses">My UE</string>
+    <string name="title_activity_kim_my_courses">My course/Mon UE</string>
     <string name="title_activity_kim_my_assessments">My Assessments/Mes évaluations</string>
     <string name="title_activity_kim_add_course">Add Course/Ajouter un UE</string>
-    <string name="title_activity_kim_add_assessment">Add Assessment</string>
+    <string name="title_activity_kim_add_assessment">Add Assessment/Ajouter évaluations</string>
     <string name="credit_prompt">course credit?/crédit UE?</string>
-    <string name="grading_system_prompt">What is the grading system?</string>
-    <string name="weight_prompt">What is the weight name?</string>
+    <string name="grading_system_prompt">grading system?/système de note</string>
+    <string name="weight_prompt">weight name?/module</string>
     <string name="title_activity_kim_settings">Settings/Paramètres</string>
 
     <!-- Strings related to Settings -->
