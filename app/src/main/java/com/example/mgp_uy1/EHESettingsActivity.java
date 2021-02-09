@@ -11,7 +11,6 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.MenuItem;
-
 import androidx.appcompat.app.ActionBar;
 import androidx.core.app.NavUtils;
 

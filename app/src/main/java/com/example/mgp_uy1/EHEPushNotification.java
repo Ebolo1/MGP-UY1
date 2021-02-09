@@ -117,13 +117,13 @@ public class EHEPushNotification {
 
                 pendingIntent = PendingIntent.getActivity(context, KIM_NOTIFICATION_ID, intent, PendingIntent.FLAG_ONE_SHOT);
 
-                builder.setContentTitle("Low GPA")
-                        .setContentText("Low GPA. Study until chair ripped off.")
+                builder.setContentTitle("Low GPA/MGP Bass")
+                        .setContentText("Low GPA/MGP Bass. Veillez booster encore plus.")
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setDefaults(NotificationCompat.DEFAULT_VIBRATE)
                         .setAutoCancel(false)
                         .setContentIntent(pendingIntent)
-                        .setTicker("Low GPA. Study until chair ripped off.")
+                        .setTicker("Low GPA/MGP Bass.Veillez booster encore plus")
                         .setVibrate(new long[]{100, 200, 300, 400, 500, 400, 300, 200, 400})
                         .setPriority(NotificationCompat.PRIORITY_MAX);
             }
@@ -184,8 +184,8 @@ public class EHEPushNotification {
                         .setDefaults(NotificationCompat.DEFAULT_VIBRATE)
                         .setAutoCancel(false)
                         .setContentIntent(pendingIntent)
-                        .setContentText("Low Expected GPA. Study until chair ripped off.")
-                        .setTicker("Low Expected GPA. Study until chair ripped off.")
+                        .setContentText("Low Expected GPA. Veillez booster encore plus.")
+                        .setTicker("Low Expected GPA. Veillez booster encore plus.")
                         .setVibrate(new long[]{100, 200, 300, 400, 500, 400, 300, 200, 400})
                         .setPriority(NotificationCompat.PRIORITY_MAX);
             }
